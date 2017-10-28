@@ -6,12 +6,13 @@ html {
 .imagen-fondo {
     background-position: center;
     background-size: cover;
-    background-image: url("../img/background.jpg");
+    background-image: url("../img/background_3.jpg");
     min-height: 100%;
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 90px;
+    color: #fff;
 }
 
 h2 {
@@ -25,10 +26,17 @@ h3 {
     margin: 10px 0;
 }
 
-h4 {
+p {
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 1px;
 
 }
 
-p {
-
+h4 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 1px;
 }
