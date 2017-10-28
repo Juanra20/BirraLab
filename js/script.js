@@ -65,3 +65,22 @@ function appendInstruction(text) {
     document.getElementById("pasoAPaso").appendChild(node);
 }
 
+function bitterInfo() {
+  document.getElementById("info-cuadro").innerHTML = "una cerveza para los que les guste la cerveza con verdadero carácter. Esta receta de cerveza negra (Stout) de estilo Imperial y con influencia americana. Es compleja la lista de ingredientes y sencilla la elaboración en sí. Si te faltara alguna de las maltas de color o sabor, puedes sustituirla o prescindir de ella. La receta obviamente no será igual, pero conseguirás en cualquier caso una cerveza espectacular.";
+}
+
+function bockmielInfo() {
+  document.getElementById("info-cuadro").innerHTML = "Las cervezas Bock destacan por su bonito color oscuro (fruto de la adición de varias maltas tostadas), por su dulzor (por el añadido de maltas caramelizadas) y por su graduación (fruto de la gran cantidad de malta que llevan. En este caso, no tiene mucho color al maltas relativamente claras. Pero la distingue sobre todo el añadido de miel de flores, no tanto para darle dulzor ( el 95% de los azúcares de la miel son fermentables y por lo tanto desaparecen) pero para darle un aroma especial. Y su carácter indiscutiblemente alemán se lo dan los lúpulos Tettnanger y Hallertauer incluido un dry-hoping de 25g de este último."
+}
+
+function americanbrownInfo() {
+  document.getElementById("info-cuadro").innerHTML = "De los Estados Unidos en la que juegan con los tiempos de cocción del lúpulo Cascade para ir sacando todo su espectro de sabores. Utiliza malta ámbar, combinando extracto de malta y malta en grano y un poco de malta cristal. Tiene una fermentación primaria corta (de 4 días nada más) que se completa con una fermentación secundaria de 15 días."
+}
+
+function mexicanaInfo() {
+  document.getElementById("info-cuadro").innerHTML = "Las cervezas mexicanas tienen larga historia como bebida fermentada. México es hoy uno de los principales exportadores de cerveza del mundo. Una costumbre al beber cerveza es tomarla acompañada de rebanadas de limón con sal. Otra forma muy popular en todo el país es beberla como Michelada."
+}
+
+function stoutInfo() {
+  document.getElementById("info-cuadro").innerHTML = "Una cerveza para los que les guste la cerveza con verdadero carácter. Esta receta de cerveza negra (Stout) de estilo Imperial y con influencia americana. Es compleja la lista de ingredientes y sencilla la elaboración en sí. Si te faltara alguna de las maltas de color o sabor, puedes sustituirla o prescindir de ella. La receta obviamente no será igual, pero conseguirás en cualquier caso una cerveza espectacular."
+}
